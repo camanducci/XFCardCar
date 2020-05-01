@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+			 xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+			 mc:Ignorable="d"
+			 x:Class="XFCarCard.Views.PaginaInicial"
+			 Title="Car Cards">
+
+    <ContentPage.Content>
+        <CarouselView ItemsSource="{Binding Carros}" ItemsLayout="HorizontalList">
+            <CarouselView.ItemTemplate SnapPointsAlignment="Center" SnapPointsType="Mandatory">
+                <DataTemplate>
+                    <StackLayout Padding="0" BackgroundColor="#F2F2F2">
+                        
+                        <Image Source="OpalaBranco.jpg" />
+
+                        <!--Especificações-->
+                        <Frame CornerRadius="40"
+                               TranslationY="-45"
+                               Padding="0,0,0,0"
+                               HeightRequest="365"
+                               BackgroundColor="#F2F2F2"
+                               BorderColor="#D9D9D9"
+                               HasShadow="False">
+
+                            <FlexLayout Direction="Column" JustifyContent="Center">
+
+                                <!--Ano-->
+                                <Frame Style="{StaticResource styleFrameEspecificacoes}"
+                                       BackgroundColor="#D9EDF7"
+                                       BorderColor="#31708F">
+
+                                    <StackLayout Orientation="Horizontal">
+                                        <Image Style="{StaticResource styleImageEspecificoes}" Source="ano1" />
+
+                                        <Label Style="{StaticResource styleLabelTextoIcone}"
+                                               Text="Ano"
+                                               TextColor="#31708F" />
+
+                                        <Label Style="{StaticResource styleLabelEspecificacoes}"
+                                               Text="1979"
+                                               TextColor="#31708F" />
+                                    </StackLayout>
+                                </Frame>
+
+                                <!--Velocidade-->
+                                <Frame Style="{StaticResource styleFrameEspecificacoes}"
+                                       BackgroundColor="#F2DEDE"
+                                       BorderColor="#A94442">
+
+                                    <StackLayout Orientation="Horizontal">
+                                        <Image Style="{StaticResource styleImageEspecificoes}" Source="velocidade100" />
+
+                                        <Label Style="{StaticResource styleLabelTextoIcone}"
+                                               Text="Vel. Máxima"
+                                               TextColor="#A94442" />
+
+                                        <Label Style="{StaticResource styleLabelEspecificacoes}"
+                                               Text="174 Km/h"
+                                               TextColor="#A94442" />
+                                    </StackLayout>
+                                </Frame>
+
+                                <!--Acelereção-->
+                                <Frame Style="{StaticResource styleFrameEspecificacoes}"
+                                       BackgroundColor="#FBECEB"
+                                       BorderColor="#D43F3A">
+
+                                    <StackLayout Orientation="Horizontal" Padding="0">
+                                        <Image Style="{StaticResource styleImageEspecificoes}" Source="aceleracao" />
+
+                                        <Label Style="{StaticResource styleLabelTextoIcone}"
+                                               Text="0 à 100"
+                                               TextColor="#D43F3A" />
+
+                                        <Label Style="{StaticResource styleLabelEspecificacoes}"
+                                               Text="14 segundos"
+                                               TextColor="#D43F3A" />
+                                    </StackLayout>
+                                </Frame>                                
+
+                                <!--Potencia-->
+                                <Frame Style="{StaticResource styleFrameEspecificacoes}"
+                                       BackgroundColor="#FCF8E3"
+                                       BorderColor="#EEA236">
+
+                                    <StackLayout Orientation="Horizontal">
+                                        <Image Style="{StaticResource styleImageEspecificoes}" Source="potencia3" />
+
+                                        <Label Style="{StaticResource styleLabelTextoIcone}"
+                                               Text="Potência"
+                                               TextColor="#EEA236" />
+
+                                        <Label Style="{StaticResource styleLabelEspecificacoes}"
+                                               Text="98 cv"
+                                               TextColor="#EEA236" />
+                                    </StackLayout>
+                                </Frame>                                
+                            </FlexLayout>
+                        </Frame>
+
+                        <!--Nome do Carro-->
+                        <Frame CornerRadius="25" 
+                               WidthRequest="200"
+                               TranslationY="-440"
+                               TranslationX="-30"
+                               HorizontalOptions="End"
+                               BackgroundColor="#337ab7"
+                               Padding="10"
+                               BorderColor="#D9D9D9">
+                            
+                            <Label Text="{Binding Nome}"
+                                   FontSize="Medium"
+                                   TextColor="White"
+                                   FontAttributes="Bold"
+                                   HorizontalOptions="CenterAndExpand"
+                                   VerticalOptions="CenterAndExpand" />
+                        </Frame>                        
+                    </StackLayout>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+    </ContentPage.Content>
+</ContentPage>

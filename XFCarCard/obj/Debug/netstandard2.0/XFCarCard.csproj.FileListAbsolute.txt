@@ -1,0 +1,16 @@
+C:\Projetos\XFCarCard\XFCarCard\bin\Debug\netstandard2.0\XFCarCard.deps.json
+C:\Projetos\XFCarCard\XFCarCard\bin\Debug\netstandard2.0\XFCarCard.dll
+C:\Projetos\XFCarCard\XFCarCard\bin\Debug\netstandard2.0\ref\XFCarCard.dll
+C:\Projetos\XFCarCard\XFCarCard\bin\Debug\netstandard2.0\XFCarCard.pdb
+C:\Projetos\XFCarCard\XFCarCard\obj\Debug\netstandard2.0\XFCarCard.csprojAssemblyReference.cache
+C:\Projetos\XFCarCard\XFCarCard\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Projetos\XFCarCard\XFCarCard\obj\Debug\netstandard2.0\Views\MasterDetailView.xaml.g.cs
+C:\Projetos\XFCarCard\XFCarCard\obj\Debug\netstandard2.0\Views\MasterDetailViewMaster.xaml.g.cs
+C:\Projetos\XFCarCard\XFCarCard\obj\Debug\netstandard2.0\Views\PaginaInicial.xaml.g.cs
+C:\Projetos\XFCarCard\XFCarCard\obj\Debug\netstandard2.0\XFCarCard.csproj.CoreCompileInputs.cache
+C:\Projetos\XFCarCard\XFCarCard\obj\Debug\netstandard2.0\XFCarCard.AssemblyInfoInputs.cache
+C:\Projetos\XFCarCard\XFCarCard\obj\Debug\netstandard2.0\XFCarCard.AssemblyInfo.cs
+C:\Projetos\XFCarCard\XFCarCard\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Projetos\XFCarCard\XFCarCard\obj\Debug\netstandard2.0\XFCarCard.dll
+C:\Projetos\XFCarCard\XFCarCard\obj\Debug\netstandard2.0\ref\XFCarCard.dll
+C:\Projetos\XFCarCard\XFCarCard\obj\Debug\netstandard2.0\XFCarCard.pdb
