@@ -1,3 +1,3 @@
 # XFCardCar
 
-Cars de viculos no estino Super Trunfo. Utilizado somente Xamarin Forms.
+Cards de carros no estilo Super Trunfo. Utilizado somente Xamarin Forms.
