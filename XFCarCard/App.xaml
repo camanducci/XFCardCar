@@ -10,7 +10,17 @@
             <Style TargetType="Frame" x:Key="styleFrameEspecificacoes">
                 <Setter Property="CornerRadius" Value="10" />
                 <Setter Property="Margin" Value="10" />
-                <Setter Property="Padding" Value="10" />
+                <Setter Property="Padding" Value="0,10,0,0" />
+                <Setter Property="WidthRequest" Value="80" />
+                <Setter Property="HeightRequest" Value="100" />
+            </Style>
+
+            <Style TargetType="Frame" x:Key="styleFrameDadosCarro">
+                <Setter Property="Grid.Row" Value="1" />
+                <Setter Property="CornerRadius" Value="7" />
+                <Setter Property="BackgroundColor" Value="White" />
+                <Setter Property="Margin" Value="2,0,2,2" />
+                <Setter Property="Padding" Value="0" />
             </Style>
 
             <Style TargetType="Image" x:Key="styleImageEspecificoes">
@@ -19,17 +29,18 @@
             </Style>
 
             <Style TargetType="Label" x:Key="styleBaseLabelEspecificacoes">
-                <Setter Property="FontSize" Value="Title" />
+                <Setter Property="FontSize" Value="Subtitle" />
                 <Setter Property="FontAttributes" Value="Bold" />
             </Style>
 
-            <Style TargetType="Label" x:Key="styleLabelEspecificacoes" BasedOn="{StaticResource styleBaseLabelEspecificacoes}">                
-                <Setter Property="HorizontalOptions" Value="EndAndExpand" />
+            <Style TargetType="Label" x:Key="styleLabelEspecificacoes" BasedOn="{StaticResource styleBaseLabelEspecificacoes}">
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
                 <Setter Property="VerticalOptions" Value="CenterAndExpand" />
+                <Setter Property="FontAttributes" Value="None" />
             </Style>
 
             <Style TargetType="Label" x:Key="styleLabelTextoIcone"  BasedOn="{StaticResource styleBaseLabelEspecificacoes}">
-                <Setter Property="HorizontalOptions" Value="Start" />
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
                 <Setter Property="VerticalOptions" Value="CenterAndExpand" />
             </Style>
         </ResourceDictionary>
